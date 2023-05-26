@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Farsan&display=swap");
+
+* {
+  font-family: "Farsan", cursive;
+  text-align: center;
+}
+h1 {
+  font-size: 200%;
+}
+
+hr {
+  width: 40%;
+}
+.pane1 h1 {
+  color: blue;
+  margin-top: -24px;
+}
+
+.pane1 p {
+  margin-top: -2%;
+}
+
+.listed {
+  margin-top: -20px;
+}
+.pane2x h1 {
+  margin-top: 0%;
+  font-size: 170%;
+}
+
+.hr hr {
+  width: 50%;
+}
+
+.pane3 button {
+  background-color: blue;
+  border-radius: 10px;
+  color: #fff;
+  border: blue;
+   margin-top: -20px;
+   cursor: pointer;
+ }
