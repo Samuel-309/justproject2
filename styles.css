@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Farsan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap");
 
 * {
   font-family: "Farsan", cursive;
@@ -41,6 +42,11 @@ hr {
   cursor: pointer;
 }
 
+#but3 {
+  color: #fff;
+  text-decoration: none;
+}
+
 table {
   margin: auto;
   width: 500px;
@@ -58,11 +64,101 @@ tr {
   margin-left: 10px;
   padding: 30px;
 }
-thead{
+thead {
   font-weight: 900;
   color: black;
   font-size: 25px;
-
 }
 
+.form-details {
+  color: black;
+  text-align-last: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-family: "Halant", serif;
+}
+.heading h1 {
+  font-family: "Halant", serif;
+}
 
+.formcontent {
+  font-size: 140%;
+  font: bolder;
+  font-weight: 800;
+  font-family: "Halant", serif;
+}
+.formcontent label {
+  color: black;
+  font-family: "Halant", serif;
+}
+
+.formcontent input.name {
+  width: 25%;
+  margin-left: 15.5%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent input.username {
+  width: 25%;
+  margin-left: 12%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent input.password {
+  width: 25.5%;
+  margin-left: 12.5%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent input.retype {
+  width: 25%;
+  margin-left: 5.5%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+input[type="radio"].male {
+  margin-left: 14.5%;
+  font-size: 10px;
+  font-family: "Halant", serif;
+}
+input[type="checkbox"].skills {
+  margin-left: 10.5%;
+  font-family: "Halant", serif;
+}
+
+.formcontent input.address {
+  width: 25%;
+  margin-left: 13.5%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent input.email {
+  width: 25.5%;
+  padding: 2 3%;
+  margin-left: 15.1%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent select.college {
+  width: 27.5%;
+  margin-left: 14%;
+  padding: 1% 1%;
+  font-family: "Halant", serif;
+}
+.formcontent button {
+  width: 27.5%;
+  margin-left: 21%;
+  /* padding: 1% 1%; */
+  background-color: blue;
+  border-radius: 5px;
+  border: blue;
+  color: #fff;
+  text-align: right;
+  font-family: "Halant", serif;
+}
+.formcontent button p {
+  color: #fff;
+  margin-left: 40%;
+  font-family: "Halant", serif;
+}
